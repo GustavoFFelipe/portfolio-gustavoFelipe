@@ -3,4 +3,98 @@
 #sidebar{
     width: 40vw;
     color: #000;
+    position: fixed;
+
+
+
+/****----------Container menu -------------*/
+    .container {
+        position: relative;
+        top: 10rem;
+        left: 3rem;
+          
+        .title{
+            width: 30vw;
+            margin: 0 auto;
+        }
+        #name-title{
+            font-family: 'Khand', sans-serif;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            font-size: 3.3rem;
+            margin-top: -5rem;
+        }
+        #job-title{
+            font-size: 2rem;
+            line-height: 0;
+            font-weight: 500;
+        }
+        #sub-title{
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            line-height: 1;
+        }
+       
+    }
+    /*--------Navigation --------------*/
+    .menu{
+        width: 30vw;
+        margin: 0 auto;
+        margin-top: 2rem;
+        ul{
+            padding: 0;
+            list-style: none;
+            width: 32%;
+        }
+
+    }
+
+    .menu li>a{
+        display: block;
+        color: #000;
+        font-size: 1.2rem;
+        margin: .6rem auto;
+        opacity: .7;
+
+    }
+   .menu li > a:hover{
+        color: #1c4d78;
+        letter-spacing: 4px;
+        transition: all .4s ease;
+        opacity: 1;
+        font-weight: 500;
+        
+    }
+    .menu li > a:after{
+        content: "";
+        display: block;
+        width: 80%;
+        background-color: #000;
+        height: 1px;
+        opacity: .5;
+    }
+    .menu li > a:hover::after{
+        width: 150%;
+        transition: all .4s ease;
+        opacity: 1;
+    }
+   
+   
+    /***-----------Social icons -----------*/
+    #social{
+        ul{
+            list-style: none;
+            display: flex;
+            width: 30vw;
+            margin: 7rem auto 0;
+            li a img{
+                width: 32px;
+                margin: 0 1rem;
+                
+            }
+
+           
+        }
+       
+    }
 }
