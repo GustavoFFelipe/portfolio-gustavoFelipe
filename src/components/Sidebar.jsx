@@ -12,7 +12,7 @@ export default function Sidebar(){
               <div className="title">
                 <h1 id='name-title'>Gustavo Felipe</h1>
                 <span id='job-title'>Desenvolvedor Front-end</span>
-                <p id='sub-title'>Trazendo praticidade, criatividade e eficacia ao seu dia a dia na web.</p>
+                <p id='sub-title'>Trazendo praticidade, criatividade e eficácia ao seu dia a dia na web.</p>
               </div>
     {/*--------------Navigation menu -------------*/}
               <nav className="menu">
